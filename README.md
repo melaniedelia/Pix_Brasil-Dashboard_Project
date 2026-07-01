@@ -111,23 +111,8 @@ The dashboard includes dynamic measures for:
 
 ---
 
-## 📁 Project Structure
 
-```
-PIX-Brazil-PowerBI-Dashboard
-│
-├── Dashboard_PIX_Brasil.pbix
-├── README.md
-├── Documentation
-│   └── Project_Documentation.pdf
-└── Images
-    ├── dashboard-overview.png
-    ├── analytical-view.png
-    └── detail-view.png
-```
+## 📊 Power BI Report
 
----
+The interactive Power BI report (.pbix) is available for review upon request.
 
-## 🚀 Purpose
-
-This project was developed to strengthen Business Intelligence skills by applying a complete analytics approach, from raw data preparation to interactive reporting.
