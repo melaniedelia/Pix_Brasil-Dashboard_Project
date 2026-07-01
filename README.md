@@ -99,15 +99,15 @@ The dashboard includes dynamic measures for:
 
 ### Overview
 
-![Dashboard Overview](Images/dashboard-overview.png)
+![Dashboard Overview](dashboard-overview.png)
 
 ### Analytical View
 
-![Analytical View](Images/analytical-view.png)
+![Analytical View](analytical-view.png)
 
 ### Detail View
 
-![Detail View](Images/detail-view.png)
+![Detail View](detail-view.png)
 
 ---
 
