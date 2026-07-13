@@ -2,9 +2,11 @@
 Interactive Power BI dashboard featuring ETL, Star Schema modeling, DAX, Time Intelligence (YoY/MoM), drill-through, responsive design, and data storytelling using official PIX data from the Central Bank of Brazil.
 
 
+
 **Análise da Evolução do Sistema de Pagamentos PIX no Brasil**
 
-![pix image.png]
+![pix image.png](https://github.com/melaniedelia/pix-brasil-powerbi-dashboard/blob/main/pix%20image.png)
+
 
 
 **Descrição**
@@ -12,6 +14,8 @@ Interactive Power BI dashboard featuring ETL, Star Schema modeling, DAX, Time In
 Este projeto consiste no desenvolvimento de um dashboard interativo no Power BI para analisar a evolução do sistema de pagamentos instantâneos PIX no Brasil.
 
 O projeto contempla todas as etapas de um fluxo de Business Intelligence, desde a preparação dos dados até a criação de indicadores, visualizações interativas e geração de insights de negócio.
+
+
 
 **Objetivo**
 
@@ -27,6 +31,8 @@ Crescimento do número de instituições participantes;
 Tendências ao longo do tempo por meio de indicadores dinâmicos.
 
 
+
+
 **Fonte de Dados**
 
 Os dados utilizados são públicos e disponibilizados pelo:
@@ -35,7 +41,7 @@ Banco Central do Brasil (BACEN).
 
 Base utilizada:
 
-Dados oficiais do sistema de pagamentos PIX.
+Dados oficiais do sistema de pagamentos PIX : ([link](https://dadosabertos.bcb.gov.br/pt_BR/dataset/pix?utm_source=chatgpt.com)
 
 
 **Tecnologias utilizadas**
