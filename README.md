@@ -4,6 +4,9 @@ Interactive Power BI dashboard featuring ETL, Star Schema modeling, DAX, Time In
 
 **Análise da Evolução do Sistema de Pagamentos PIX no Brasil**
 
+![pix image.png]
+
+
 **Descrição**
 
 Este projeto consiste no desenvolvimento de um dashboard interativo no Power BI para analisar a evolução do sistema de pagamentos instantâneos PIX no Brasil.
