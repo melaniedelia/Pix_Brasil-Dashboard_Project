@@ -146,7 +146,8 @@ Grande parte do volume financeiro concentra-se nas principais instituições fin
 
 **Arquivo Power BI**
 
-O arquivo .pbix está disponível neste repositório para consulta e análise. Ele permite explorar toda a construção do projeto, incluindo o processo de modelagem dos dados, as medidas desenvolvidas em DAX e o dashboard interativo criado no Power BI.
+O arquivo DashboardPIX.pbix está disponível neste repositório para consulta e análise. Ele permite explorar toda a construção do projeto, incluindo o processo de modelagem dos dados, as medidas desenvolvidas em DAX e o dashboard interativo criado no Power BI.
+![Baixar arquivo PIX Brasil Dashboard.pbix](https://github.com/melaniedelia/pix-brasil-powerbi-dashboard/blob/main/DashboardPIX.pbix)
 
 ---
 
