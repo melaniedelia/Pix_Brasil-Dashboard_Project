@@ -2,117 +2,117 @@
 Interactive Power BI dashboard featuring ETL, Star Schema modeling, DAX, Time Intelligence (YoY/MoM), drill-through, responsive design, and data storytelling using official PIX data from the Central Bank of Brazil.
 
 
-# 📊 PIX Brasil Dashboard | Power BI
+**Análise da Evolução do Sistema de Pagamentos PIX no Brasil**
 
-## 📌 Overview
+**Descrição**
 
-This project is an end-to-end Business Intelligence dashboard developed with Power BI to analyze the evolution of Brazil's PIX instant payment system.
+Este projeto consiste no desenvolvimento de um dashboard interativo no Power BI para analisar a evolução do sistema de pagamentos instantâneos PIX no Brasil.
 
-The objective is to understand if PIX is still experiencing strong growth or if it has entered a more mature stage.
+O projeto contempla todas as etapas de um fluxo de Business Intelligence, desde a preparação dos dados até a criação de indicadores, visualizações interativas e geração de insights de negócio.
 
-The project covers the complete BI workflow:
-- Data extraction and transformation
-- Data modeling
-- DAX development
-- Interactive dashboard design
-- Business insights generation
+**Objetivo**
 
----
+O objetivo deste projeto é analisar a evolução do PIX desde sua implementação, respondendo à seguinte questão de negócio:
 
-## 🎯 Business Question
+O sistema PIX continua em forte crescimento ou já apresenta sinais de maturidade?
 
-**How is PIX evolving in Brazil, and what trends can be identified in transactions, financial volume and adoption?**
+Para isso, o dashboard permite acompanhar:
 
----
+Evolução do número de transações;
+Evolução do volume financeiro movimentado;
+Crescimento do número de instituições participantes;
+Tendências ao longo do tempo por meio de indicadores dinâmicos.
 
-## 📂 Data Source
 
-Official public data provided by:
+**Fonte de Dados**
 
-**Central Bank of Brazil (Banco Central do Brasil)**
+Os dados utilizados são públicos e disponibilizados pelo:
 
-Dataset:
-PIX payment system data
+Banco Central do Brasil (BACEN).
 
----
+Base utilizada:
 
-## 🛠 Technologies & Skills
+Dados oficiais do sistema de pagamentos PIX.
 
-- Power BI Desktop
-- Power Query (ETL)
-- DAX
-- Star Schema Data Modeling
-- Time Intelligence
-- Data Visualization
-- Dashboard UX Design
-- Storytelling with Data
 
----
+**Tecnologias utilizadas**
 
-## 🔄 Data Preparation (ETL)
+Power BI Desktop
+Power Query
+DAX
+Modelagem de Dados (Star Schema)
+Time Intelligence
+Visualização de Dados
+Storytelling com Dados
 
-The project includes:
 
-- Exploratory analysis of multiple public datasets
-- Selection of the PIX dataset based on business relevance and data quality
-- Data cleaning and transformation
-- Creation of a Calendar Dimension
-- Standardization of date fields
-- Creation of relationships between fact and dimension tables
+**Preparação dos Dados**
 
----
+O projeto incluiu as seguintes etapas:
 
-## 📈 Key Metrics
+Importação dos dados oficiais;
+Limpeza e transformação dos dados (ETL);
+Padronização dos campos de data;
+Criação da dimensão Calendário;
+Modelagem em esquema estrela (Star Schema);
+Criação dos relacionamentos entre tabelas;
+Desenvolvimento de medidas utilizando DAX.
 
-The dashboard includes dynamic measures for:
 
-- Total PIX transaction value
-- Number of transactions
-- Number of financial institutions
-- Year-over-Year growth (YoY)
-- Month-over-Month growth (MoM)
+**Indicadores Desenvolvidos**
 
----
+O dashboard apresenta indicadores dinâmicos para acompanhar:
 
-## 🎨 Dashboard Features
+Valor total movimentado pelo PIX;
+Número de transações;
+Número de instituições participantes;
+Crescimento anual (Year-over-Year – YoY);
+Crescimento mensal (Month-over-Month – MoM).
 
-✔ Interactive KPI cards  
-✔ Dynamic filters  
-✔ Drill-through navigation  
-✔ Custom tooltips  
-✔ Dynamic titles  
-✔ Responsive mobile layout  
-✔ Page navigation  
-✔ Filter reset button  
 
----
+**Funcionalidades do Dashboard**
 
-## 💡 Key Insights
+Cartões de KPI interativos;
+Filtros dinâmicos;
+Navegação entre páginas;
+Drill-through;
+Tooltips personalizados;
+Títulos dinâmicos;
+Layout responsivo;
+Botão para redefinição dos filtros.
 
-- PIX shows continuous structural growth since its launch.
-- Growth rates indicate a gradual transition toward market maturity.
-- Transaction volume is concentrated among major financial institutions and regions.
 
----
+**Principais Insights**
 
-## 📷 Dashboard Preview
+A análise dos dados permite observar que:
 
-### Overview
+O PIX mantém uma trajetória consistente de crescimento desde sua implementação;
+As taxas de crescimento sugerem uma transição gradual para uma fase de maior maturidade do mercado;
+Grande parte do volume financeiro concentra-se nas principais instituições financeiras e regiões do país.
+
+
+##  Dashboard
+
+### Visão Geral
 
 ![Dashboard Overview](dashboard-overview.png)
 
-### Analytical View
+### Visão Analítica
 
 ![Analytical View](analytical-view.png)
 
-### Detail View
+### Visão de Detalhes
 
 ![Detail View](detail-view.png)
 
 ---
 
 
-## 📊 Power BI Report
+## Arquivo Power BI
 
-The interactive Power BI report (.pbix) is available for review upon request.
+O arquivo .pbix está disponível neste repositório para consulta e análise. Ele permite explorar toda a construção do projeto, incluindo o processo de modelagem dos dados, as medidas desenvolvidas em DAX e o dashboard interativo criado no Power BI.
+
+## Licença
+
+Este projeto está sob a licença MIT. Consulte o arquivo LICENSE para mais informações.
 
