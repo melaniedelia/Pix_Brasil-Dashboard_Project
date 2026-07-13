@@ -35,24 +35,21 @@ Tendências ao longo do tempo por meio de indicadores dinâmicos.
 
 **Fonte de Dados**
 
-Os dados utilizados são públicos e disponibilizados pelo:
+Os dados utilizados neste projeto são públicos e disponibilizados pelo Banco Central do Brasil (BACEN).
 
-Banco Central do Brasil (BACEN).
+Dataset oficial: ([Estatísticas do Pix – Portal de Dados Abertos do Banco Central do Brasil](https://dadosabertos.bcb.gov.br/pt_BR/dataset/pix?utm_source=chatgpt.com))
 
-Base utilizada:
-
-Dados oficiais do sistema de pagamentos PIX : ([link](https://dadosabertos.bcb.gov.br/pt_BR/dataset/pix?utm_source=chatgpt.com)
 
 
 **Tecnologias utilizadas**
 
-Power BI Desktop
-Power Query
-DAX
-Modelagem de Dados (Star Schema)
-Time Intelligence
-Visualização de Dados
-Storytelling com Dados
+ - Power BI Desktop
+ - Power Query
+ - DAX
+ - Modelagem de Dados (Star Schema)
+ - Time Intelligence
+ - Visualização de Dados
+ - Storytelling com Dados
 
 
 **Preparação dos Dados**
