@@ -46,10 +46,36 @@ Dataset oficial: [Estatísticas do Pix – Portal de Dados Abertos do Banco Cent
  - Power BI Desktop
  - Power Query
  - DAX
- - Modelagem de Dados (Star Schema)![Starmodel](https://github.com/melaniedelia/pix-brasil-powerbi-dashboard/blob/main/starmodel.png)
+ - Modelagem de Dados (Star Schema)
  - Time Intelligence (YoY e MoM)
  - Visualização de Dados
  - Storytelling com Dados
+
+---
+
+**Arquitetura do Projeto**
+
+O fluxo de dados segue as seguintes etapas:
+
+Banco Central do Brasil  
+↓  
+Power Query (ETL)  
+↓  
+Star Schema  
+↓  
+DAX  
+↓  
+Dashboard Power BI
+
+---
+
+**Modelagem de Dados**
+
+O modelo dimensional foi construído a partir de diferentes conjuntos de dados oficiais do Banco Central do Brasil, organizados em tabelas fato e dimensões conforme as melhores práticas de Business Intelligence.
+
+O modelo foi desenvolvido seguindo a arquitetura **Star Schema**, separando tabelas fato e dimensões para otimizar o desempenho, facilitar a criação de medidas em DAX e garantir uma análise eficiente dos dados.
+
+![Starmodel](https://github.com/melaniedelia/pix-brasil-powerbi-dashboard/blob/main/starmodel.png)
 
 ---
 
