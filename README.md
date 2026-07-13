@@ -3,11 +3,12 @@ Interactive Power BI dashboard featuring ETL, Star Schema modeling, DAX, Time In
 
 
 
-**Análise da Evolução do Sistema de Pagamentos PIX no Brasil**
+## Análise da Evolução do Sistema de Pagamentos PIX no Brasil
 
 ![pix image.png](https://github.com/melaniedelia/pix-brasil-powerbi-dashboard/blob/main/pix%20image.png)
 
 
+---
 
 **Descrição**
 
@@ -15,7 +16,7 @@ Este projeto consiste no desenvolvimento de um dashboard interativo no Power BI 
 
 O projeto contempla todas as etapas de um fluxo de Business Intelligence, desde a preparação dos dados até a criação de indicadores, visualizações interativas e geração de insights de negócio.
 
-
+---
 
 **Objetivo**
 
@@ -30,16 +31,15 @@ Evolução do volume financeiro movimentado;
 Crescimento do número de instituições participantes;
 Tendências ao longo do tempo por meio de indicadores dinâmicos.
 
-
-
+---
 
 **Fonte de Dados**
 
 Os dados utilizados neste projeto são públicos e disponibilizados pelo Banco Central do Brasil (BACEN).
 
-Dataset oficial: ([Estatísticas do Pix – Portal de Dados Abertos do Banco Central do Brasil](https://dadosabertos.bcb.gov.br/pt_BR/dataset/pix?utm_source=chatgpt.com))
+Dataset oficial: [Estatísticas do Pix – Portal de Dados Abertos do Banco Central do Brasil](https://dadosabertos.bcb.gov.br/pt_BR/dataset/pix?utm_source=chatgpt.com)
 
-
+---
 
 **Tecnologias utilizadas**
 
@@ -47,46 +47,50 @@ Dataset oficial: ([Estatísticas do Pix – Portal de Dados Abertos do Banco Cen
  - Power Query
  - DAX
  - Modelagem de Dados (Star Schema)
- - Time Intelligence
+ - Time Intelligence (YoY e MoM)
  - Visualização de Dados
  - Storytelling com Dados
 
+---
 
 **Preparação dos Dados**
 
 O projeto incluiu as seguintes etapas:
 
-Importação dos dados oficiais;
-Limpeza e transformação dos dados (ETL);
-Padronização dos campos de data;
-Criação da dimensão Calendário;
-Modelagem em esquema estrela (Star Schema);
-Criação dos relacionamentos entre tabelas;
-Desenvolvimento de medidas utilizando DAX.
+ - Importação dos dados oficiais;
+ - Limpeza e transformação dos dados (ETL);
+ - Padronização dos campos de data;
+ - Criação da dimensão Calendário;
+ - Modelagem em esquema estrela (Star Schema);
+ - Criação dos relacionamentos entre tabelas;
+ - Desenvolvimento de medidas utilizando DAX.
 
+---
 
 **Indicadores Desenvolvidos**
 
 O dashboard apresenta indicadores dinâmicos para acompanhar:
 
-Valor total movimentado pelo PIX;
-Número de transações;
-Número de instituições participantes;
-Crescimento anual (Year-over-Year – YoY);
-Crescimento mensal (Month-over-Month – MoM).
+ - Valor total movimentado pelo PIX;
+ - Número de transações;
+ - Número de instituições participantes;
+ - Crescimento anual (Year-over-Year – YoY);
+ - Crescimento mensal (Month-over-Month – MoM).
 
+---
 
 **Funcionalidades do Dashboard**
 
-Cartões de KPI interativos;
-Filtros dinâmicos;
-Navegação entre páginas;
-Drill-through;
-Tooltips personalizados;
-Títulos dinâmicos;
-Layout responsivo;
-Botão para redefinição dos filtros.
+ - Cartões de KPI interativos;
+ - Filtros dinâmicos;
+ - Navegação entre páginas;
+ - Drill-through;
+ - Tooltips personalizados;
+ - Títulos dinâmicos;
+ - Layout responsivo;
+ - Botão para redefinição dos filtros.
 
+---
 
 **Principais Insights**
 
@@ -96,29 +100,31 @@ O PIX mantém uma trajetória consistente de crescimento desde sua implementaç�
 As taxas de crescimento sugerem uma transição gradual para uma fase de maior maturidade do mercado;
 Grande parte do volume financeiro concentra-se nas principais instituições financeiras e regiões do país.
 
+---
 
 ##  Dashboard
 
-### Visão Geral
+**Visão Geral**
 
 ![Dashboard Overview](dashboard-overview.png)
 
-### Visão Analítica
+**Visão Analítica**
 
 ![Analytical View](analytical-view.png)
 
-### Visão de Detalhes
+**Visão de Detalhes**
 
 ![Detail View](detail-view.png)
 
 ---
 
-
-## Arquivo Power BI
+**Arquivo Power BI**
 
 O arquivo .pbix está disponível neste repositório para consulta e análise. Ele permite explorar toda a construção do projeto, incluindo o processo de modelagem dos dados, as medidas desenvolvidas em DAX e o dashboard interativo criado no Power BI.
 
-## Licença
+---
+
+**Licença**
 
 Este projeto está sob a licença MIT. Consulte o arquivo LICENSE para mais informações.
 
