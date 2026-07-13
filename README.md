@@ -46,7 +46,7 @@ Dataset oficial: [Estatísticas do Pix – Portal de Dados Abertos do Banco Cent
  - Power BI Desktop
  - Power Query
  - DAX
- - Modelagem de Dados (Star Schema)
+ - Modelagem de Dados (Star Schema)![Starmodel](https://github.com/melaniedelia/pix-brasil-powerbi-dashboard/blob/main/starmodel.png)
  - Time Intelligence (YoY e MoM)
  - Visualização de Dados
  - Storytelling com Dados
