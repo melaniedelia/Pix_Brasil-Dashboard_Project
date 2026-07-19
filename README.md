@@ -1,6 +1,6 @@
 # pix-brasil-powerbi-dashboard
 
-Análise interativa do PIX em Power BI, integrando processos de ETL, modelagem Star Schema, métricas avançadas em DAX e data storytelling com dados do Banco Central.
+Interactive Power BI dashboard featuring ETL, Star Schema modeling, DAX, Time Intelligence (YoY/MoM), drill-through, responsive design, and data storytelling using official PIX data from the Central Bank of Brazil.
 
 
 
